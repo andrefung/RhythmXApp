@@ -13,6 +13,10 @@
 		32EC37ED24C56FE6007863D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EC37EB24C56FE6007863D7 /* Main.storyboard */; };
 		32EC37EF24C56FE8007863D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EC37EE24C56FE8007863D7 /* Assets.xcassets */; };
 		32EC37F224C56FE8007863D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EC37F024C56FE8007863D7 /* LaunchScreen.storyboard */; };
+		32EC37FA24C6EF6F007863D7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EC37F924C6EF6F007863D7 /* Constants.swift */; };
+		32EC37FC24C6F2DE007863D7 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EC37FB24C6F2DE007863D7 /* Video.swift */; };
+		32EC37FE24C6F37A007863D7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EC37FD24C6F37A007863D7 /* Model.swift */; };
+		32EC380024C82061007863D7 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EC37FF24C82061007863D7 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		32EC37EE24C56FE8007863D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32EC37F124C56FE8007863D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32EC37F324C56FE8007863D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EC37F924C6EF6F007863D7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		32EC37FB24C6F2DE007863D7 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		32EC37FD24C6F37A007863D7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		32EC37FF24C82061007863D7 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				32EC37EE24C56FE8007863D7 /* Assets.xcassets */,
 				32EC37F024C56FE8007863D7 /* LaunchScreen.storyboard */,
 				32EC37F324C56FE8007863D7 /* Info.plist */,
+				32EC37F924C6EF6F007863D7 /* Constants.swift */,
+				32EC37FB24C6F2DE007863D7 /* Video.swift */,
+				32EC37FD24C6F37A007863D7 /* Model.swift */,
+				32EC37FF24C82061007863D7 /* Response.swift */,
 			);
 			path = RhythmXapp;
 			sourceTree = "<group>";
@@ -141,6 +153,10 @@
 				32EC37EA24C56FE6007863D7 /* ViewController.swift in Sources */,
 				32EC37E624C56FE6007863D7 /* AppDelegate.swift in Sources */,
 				32EC37E824C56FE6007863D7 /* SceneDelegate.swift in Sources */,
+				32EC37FE24C6F37A007863D7 /* Model.swift in Sources */,
+				32EC37FA24C6EF6F007863D7 /* Constants.swift in Sources */,
+				32EC37FC24C6F2DE007863D7 /* Video.swift in Sources */,
+				32EC380024C82061007863D7 /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
