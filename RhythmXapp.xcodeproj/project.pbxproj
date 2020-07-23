@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3284203424C972B300BB58EB /* ConstantTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284203324C972B300BB58EB /* ConstantTemplate.swift */; };
 		32EC37E624C56FE6007863D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EC37E524C56FE6007863D7 /* AppDelegate.swift */; };
 		32EC37E824C56FE6007863D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EC37E724C56FE6007863D7 /* SceneDelegate.swift */; };
 		32EC37EA24C56FE6007863D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EC37E924C56FE6007863D7 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3284203324C972B300BB58EB /* ConstantTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantTemplate.swift; sourceTree = "<group>"; };
 		32EC37E224C56FE6007863D7 /* RhythmXapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RhythmXapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EC37E524C56FE6007863D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32EC37E724C56FE6007863D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				32EC37F024C56FE8007863D7 /* LaunchScreen.storyboard */,
 				32EC37F324C56FE8007863D7 /* Info.plist */,
 				32EC37F924C6EF6F007863D7 /* Constants.swift */,
+				3284203324C972B300BB58EB /* ConstantTemplate.swift */,
 				32EC37FB24C6F2DE007863D7 /* Video.swift */,
 				32EC37FD24C6F37A007863D7 /* Model.swift */,
 				32EC37FF24C82061007863D7 /* Response.swift */,
@@ -157,6 +160,7 @@
 				32EC37FA24C6EF6F007863D7 /* Constants.swift in Sources */,
 				32EC37FC24C6F2DE007863D7 /* Video.swift in Sources */,
 				32EC380024C82061007863D7 /* Response.swift in Sources */,
+				3284203424C972B300BB58EB /* ConstantTemplate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
