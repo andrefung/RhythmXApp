@@ -44,7 +44,7 @@ class VideoTableViewCell: UITableViewCell {
         
         // Set the date
         let df = DateFormatter()
-        df.dateFormat = "EEEE, MMM d, yyyy"
+        df.dateFormat = "MMMM yyyy"
         self.dateLabel.text = df.string(from: video!.published)
         
         // Set the thumbnail

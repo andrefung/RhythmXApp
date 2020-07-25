@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		327FA79024CC3601008885B6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FA78F24CC3601008885B6 /* DetailViewController.swift */; };
+		327FA79324CC7929008885B6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327FA79224CC7929008885B6 /* WebKit.framework */; };
 		3284203424C972B300BB58EB /* ConstantTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284203324C972B300BB58EB /* ConstantTemplate.swift */; };
 		3284203624CACADE00BB58EB /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284203524CACADE00BB58EB /* VideoTableViewCell.swift */; };
 		329DC7C024CAFD5100E201D9 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329DC7BF24CAFD5100E201D9 /* CacheManager.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		327FA78F24CC3601008885B6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		327FA79224CC7929008885B6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		3284203324C972B300BB58EB /* ConstantTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantTemplate.swift; sourceTree = "<group>"; };
 		3284203524CACADE00BB58EB /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		329DC7BF24CAFD5100E201D9 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
@@ -45,16 +49,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327FA79324CC7929008885B6 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		327FA79124CC7929008885B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				327FA79224CC7929008885B6 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3284203824CACB1600BB58EB /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				32EC37E924C56FE6007863D7 /* ViewController.swift */,
+				327FA78F24CC3601008885B6 /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -101,6 +115,7 @@
 			children = (
 				32EC37E424C56FE6007863D7 /* RhythmXapp */,
 				32EC37E324C56FE6007863D7 /* Products */,
+				327FA79124CC7929008885B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -199,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327FA79024CC3601008885B6 /* DetailViewController.swift in Sources */,
 				32EC37EA24C56FE6007863D7 /* ViewController.swift in Sources */,
 				32EC37E624C56FE6007863D7 /* AppDelegate.swift in Sources */,
 				32EC37E824C56FE6007863D7 /* SceneDelegate.swift in Sources */,
